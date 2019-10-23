@@ -7,6 +7,7 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,12 +39,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <TextView
+    <Button
+        android:id="@+id/countup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/total"
-        android:textSize="30sp"
-        android:text="Total is : ..." />
+        android:text="Count Up" />
 
 </LinearLayout>
